@@ -3,9 +3,10 @@ resource "ibm_pi_instance" "testvm1" {
     pi_processors         = "0.25"
     pi_instance_name      = "testvm"
     pi_proc_type          = "shared"
-    pi_image_id           = "00b393a9-c627-4550-b42e-b862a19c344f"
+    pi_image_id           = "9357d9b9-62e8-4531-af60-4d7f093a4319"
     pi_key_pair_name      = "key1"
     pi_sys_type           = "s922"
+    pi_storage_type       = "tier3"
     pi_cloud_instance_id  = "307928bf-b47d-4492-8d9a-20eb2b879087"
     pi_pin_policy         = "none"
     pi_network {
