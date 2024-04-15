@@ -9,6 +9,6 @@ resource "ibm_pi_instance" "test-instance" {
     pi_cloud_instance_id  = "307928bf-b47d-4492-8d9a-20eb2b879087"
     pi_pin_policy         = "none"
     pi_network {
-      network_id = data.ibm_pi_public_network.dsnetwork.id
+      network_id = "b614897d-11bf-4440-ab03-6e70db69a2da"
     }
 }
