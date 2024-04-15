@@ -1,4 +1,4 @@
-resource "ibm_pi_instance" "test-instance" {
+resource "ibm_pi_instance" "testvm1" {
     pi_memory             = "2"
     pi_processors         = "0.25"
     pi_instance_name      = "test-vm"
