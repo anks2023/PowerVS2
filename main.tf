@@ -3,7 +3,7 @@ resource "ibm_pi_instance" "testvm1" {
     pi_processors         = "0.25"
     pi_instance_name      = "testvm"
     pi_proc_type          = "shared"
-    pi_image_id           = "${data.ibm_pi_image.powerimages.id}"
+    pi_image_id           = /pcloud/v1/cloud-instances/950ca8e5a66e4bef914bc15d19bc6584/images/79c3bb4f-6e86-4dea-a2fd-bd94365a3a80
     pi_key_pair_name      = "key1"
     pi_sys_type           = "s922"
     pi_storage_type       = "tier3"
