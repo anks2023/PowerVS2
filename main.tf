@@ -2,7 +2,6 @@ data "ibm_pi_image" "power_images" {
     pi_image_name        = "7300-02-01"
     pi_cloud_instance_id  = "307928bf-b47d-4492-8d9a-20eb2b879087"
 }
-
 resource "ibm_pi_instance" "testvm1" {
     pi_memory             = "2"
     pi_processors         = "0.25"
@@ -11,7 +10,6 @@ resource "ibm_pi_instance" "testvm1" {
     pi_key_pair_name      = "key1"
     pi_sys_type           = "s922"
     pi_cloud_instance_id  = "307928bf-b47d-4492-8d9a-20eb2b879087"
-    pi_image_id           = data.ibm_pi_image.power_images.pi_image_id
     pi_storage_type       = "tier3"
     pi_pin_policy         = "none"
     pi_network {
