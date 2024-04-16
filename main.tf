@@ -1,6 +1,5 @@
 data "ibm_pi_image" "power_images" {
     pi_image_name        = "7300-02-01"
-    pi_image_id           = "79c3bb4f-6e86-4dea-a2fd-bd94365a3a80"
     pi_cloud_instance_id  = "307928bf-b47d-4492-8d9a-20eb2b879087"
 }
 
