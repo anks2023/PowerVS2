@@ -9,5 +9,5 @@ terraform {
 provider "ibm" {
   region = "lon"
   zone = "lon04"
-  ibmcloud_api_key = "owuTk68OtbpRxgOKLGEqrx2PTY-W1gpMHXm1Ps9y3oW5"
+  ibmcloud_api_key = "#K##################5#"
 }
