@@ -19,6 +19,6 @@ resource "ibm_pi_instance" "testvm1" {
     pi_storage_type       = "tier3"
     pi_pin_policy         = "none"
     pi_network {
-      network_id = "b614897d-11bf-4440-ab03-6e70db69a2da"
+      network_id = "b614897d-11b############"
     }
 }
